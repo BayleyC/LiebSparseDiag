@@ -100,6 +100,10 @@ SUBROUTINE Input(IErr)
   READ(IChInp,10,ERR=20) IWriteFlag
   !PRINT*,"IWriteFlag   = ", IWriteFlag
   
+  ILine=ILine+1
+  READ(IChInp,10,ERR=20) IStateFlag
+  !PRINT*,"IStateFlag   =  ", IStateFlag
+  
   ILine= ILine+1
   READ(IChInp,10,ERR=20) Width0
   !PRINT*,"Width0       = ",Width0
