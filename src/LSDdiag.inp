@@ -6,6 +6,7 @@ IBCFlag        = 1
 IRNGFlag       = 0
 IKeepFlag      = 0
 IWriteFlag     = 3
+IStateFlag     = 0
 Width0         = 10
 Width1         = 10
 dWidth         = 1
